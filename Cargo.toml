@@ -15,8 +15,8 @@ path = "src/main.rs"
 #snarkvm = { path = "../../src/snarkVM" }
 #snarkvm-algorithms = { path = "../../src/snarkVM/algorithms" }
 #snarkos = { path = "../../src/snarkOS" }
-snarkvm = { git = "https://github.com/AleoNet/snarkVM.git", rev = "be171ce" }
-snarkvm-ledger-puzzle-epoch = { git = "https://github.com/AleoNet/snarkVM.git", rev = "be171ce", default-features = false, features = ["serial"] }
+snarkvm = { git = "https://github.com/OuIChien/snarkVM.git", rev = "be171ce" }
+snarkvm-ledger-puzzle-epoch = { git = "https://github.com/OuIChien/snarkVM.git", rev = "be171ce", default-features = false, features = ["serial"] }
 
 #snarkos-account = { git = "https://github.com/AleoNet/snarkOS", rev = "22510524" }
 #snarkos-node-router-messages = { git = "https://github.com/AleoNet/snarkOS", rev = "22510524" }
